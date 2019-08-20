@@ -1,6 +1,6 @@
 {
   "name": "svelte-emoji-picker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "svelte": "src/index.svelte",
   "module": "index.mjs",
   "main": "index.js",
