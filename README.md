@@ -8,6 +8,32 @@
 
 > A simple emoji picker component for Svelte
 
+## Install
+```bash
+npm i svelte-emoji-picker
+```
+
+## Useage
+```html
+<!-- App.svelte -->
+<script>
+    import EmojiPicker from 'svelte-emoji-picker';
+    let text
+</script>
+
+<textarea bind:value={text}></textarea>
+<EmojiPicker bind:value={text} />
+
+```
+
+### Props
+
+| prop | default value | description
+|-|-|-|
+|emojis| ["✌️","😂","😝","😁","😱","👉","🙌","🍻","🔥","🌈","☀️","🎈","🌹","💄","🎀","⚽","🎾","🏁","😡","👿","🐻","🐶","🐬","🐟","🍀","👀","🚗","🍎","💝","💙","👌","❤","😍","😉","😓","😳","💪","💩","🍸","🔑","💖","🌟","🎉","🌺","🎶","👠","🏈","⚾","🏆","👽","💀","🐵","🐮","🐩","🐎","💣","👃","👂","🍓","💘","💜","👊","💋","😘","😜","😵","🙏","👋","🚽","💃","💎","🚀","🌙","🎁","⛄","🌊","⛵","🏀","🎱","💰","👶","👸","🐰","🐷","🐍","🐫","🔫","👄","🚲","🍉","💛","💚"] | An array of the emojis that the user can select from |
+|fontSize | "30px" | the font size of the emojis|
+
+
 ## Author
 
 👤 **Darcy Lugt-Falk**
