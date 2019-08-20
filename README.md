@@ -13,7 +13,7 @@
 npm i svelte-emoji-picker
 ```
 
-## Useage
+## Usage
 ```html
 <!-- App.svelte -->
 <script>
