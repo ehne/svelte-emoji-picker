@@ -8,6 +8,9 @@
 
 > A simple emoji picker component for Svelte
 
+## Demo
+A demo can be found [here](https://svelte.dev/repl/9afc56aabfff4382883278dbdf4ce9fd?version=3.8.1)
+
 ## Install
 ```bash
 npm i svelte-emoji-picker
