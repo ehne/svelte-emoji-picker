@@ -33,7 +33,7 @@ npm i svelte-emoji-picker
 
 | prop | default value | description
 |-|-|-|
-|emojis| Emoji Array | An array of the emojis that the user can select from |
+|emojis| [Emoji Array](https://github.com/ehne/svelte-emoji-picker/blob/master/src/index.svelte) | An array of the emojis that the user can select from |
 |fontSize | "30px" | the font size of the emojis|
 
 
