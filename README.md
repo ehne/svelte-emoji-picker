@@ -39,9 +39,6 @@ npm i svelte-emoji-picker
 
 ## Author
 
-👤 **Darcy Lugt-Falk**
-
-* Twitter: [@coolbezos](https://twitter.com/coolbezos)
 * Github: [@ehne](https://github.com/ehne)
 
 ## Show your support
